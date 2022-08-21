@@ -1,0 +1,42 @@
+.foodBox
+{
+    padding: 10px;
+}
+
+.foodBox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.foodBox h1
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.col-lg-4
+{
+    position: relative;
+}
+
+.buyBtn
+{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position:absolute;                 
+    bottom:0;                         
+}
+
+.buyBtn:hover
+{
+    color: white;
+}
